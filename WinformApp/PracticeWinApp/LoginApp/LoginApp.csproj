@@ -84,6 +84,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="open-padlock.png" />
     <Content Include="padlock.ico" />
     <None Include="Resources\Image1.bmp" />
     <None Include="padlock.png" />

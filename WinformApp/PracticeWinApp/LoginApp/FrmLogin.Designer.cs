@@ -73,7 +73,7 @@ namespace LoginApp
             // 
             // TxtResult
             // 
-            this.TxtResult.Location = new System.Drawing.Point(97, 128);
+            this.TxtResult.Location = new System.Drawing.Point(97, 119);
             this.TxtResult.Name = "TxtResult";
             this.TxtResult.ReadOnly = true;
             this.TxtResult.Size = new System.Drawing.Size(208, 21);
@@ -81,11 +81,11 @@ namespace LoginApp
             // 
             // BtnLogin
             // 
-            this.BtnLogin.Image = global::LoginApp.Properties.Resources.padlock;
+            this.BtnLogin.Image = global::LoginApp.Properties.Resources.open_padlock;
             this.BtnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnLogin.Location = new System.Drawing.Point(196, 87);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(109, 35);
+            this.BtnLogin.Size = new System.Drawing.Size(109, 26);
             this.BtnLogin.TabIndex = 4;
             this.BtnLogin.Text = "로그인";
             this.BtnLogin.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@ namespace LoginApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 165);
+            this.ClientSize = new System.Drawing.Size(330, 160);
             this.Controls.Add(this.TxtResult);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.TxtPassword);
