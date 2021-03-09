@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>padlock.ico</ApplicationIcon>
+    <ApplicationIcon>open-padlock.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -84,6 +84,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="open-padlock.ico" />
     <None Include="open-padlock.png" />
     <Content Include="padlock.ico" />
     <None Include="Resources\Image1.bmp" />
