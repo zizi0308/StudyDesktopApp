@@ -10,4 +10,4 @@ C# 데스크톱 앱 개발 학습 리포지토리
 ## WinForm 예제로 연습하기
 
 
-[WinForm 소스](WinForm)
+[WinForm 소스](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/ExcerciseWinApp)
