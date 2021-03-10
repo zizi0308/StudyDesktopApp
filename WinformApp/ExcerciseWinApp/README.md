@@ -53,7 +53,16 @@
 
 
 
+#### 6. DateTimePicker를 이용한 날짜 계산기
 
-[StudyDesktopApp로 이동](https://github.com/zizi0308/StudyDesktopApp)
+
+![DateTimePicker_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_170329_001.png)
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/ExcerciseWinApp/DateCalcApp/FrmMain.Designer.cs)
+
+
+
+
+[StudyDesktopApp으로 이동](https://github.com/zizi0308/StudyDesktopApp)
 
 
