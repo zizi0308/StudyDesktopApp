@@ -34,7 +34,7 @@ namespace AlarmClockApp
             LblDate.Text = LblTime.Text = ""; // 시작할 때 글자를 지워줌
 
             DtpAlarmTime.Format = DateTimePickerFormat.Custom;
-            DtpAlarmTime.CustomFormat = "hh:mm:ss";
+            DtpAlarmTime.CustomFormat = "HH:mm:ss";
             DtpAlarmTime.ShowUpDown = true;
 
             MyTimer.Interval = 1000; // 1sec
@@ -49,12 +49,12 @@ namespace AlarmClockApp
         {
             DateTime curDate = DateTime.Now;
             LblDate.Text = curDate.ToShortDateString();
-            LblTime.Text = curDate.ToString("hh:mm:ss");
+            LblTime.Text = curDate.ToString("HH:mm:ss");
 
             if (IsSetAlarm == true) // 알람이 설정되었다면
             {
                 // 알람 시간하고 현재시간 일치하면 알람울림
-                if (SetDay == DateTime.Today &&
+                if (SetDay == curDate.Date &&
                     SetTime.Hour == curDate.Hour &&
                     SetTime.Minute == curDate.Minute &&
                     SetTime.Second == curDate.Second)
@@ -76,7 +76,7 @@ namespace AlarmClockApp
             SetDay = DateTime.Parse(dtpAlarmDate.Text);
             SetTime = DateTime.Parse(DtpAlarmTime.Text);
 
-            LblAlarm.Text = $"Alarm : {SetDay.ToShortDateString()} {SetTime.ToString("hh:mm:ss")}";
+            LblAlarm.Text = $"Alarm : {SetDay.ToShortDateString()} {SetTime.ToString("HH:mm:ss")}";
             LblAlarm.ForeColor = Color.Red;
 
             TabClock.SelectedTab = TapDigitalClock;
