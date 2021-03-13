@@ -1,5 +1,5 @@
 ## WinFormApp 예제로 연습하기
-
+이 공간은 Winform 기본 예제를 통해 C#을 학습하는 내용을 정리해놓은 공간입니다. 조금 더 심화된 예제는 의 Winform 실무예제 바로가기를 참고해주세요
 ----------
 
 #### 1. ListBox에 항목을 표시하는 3가지 방법
@@ -61,6 +61,8 @@
 [코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/ExcerciseWinApp/DateCalcApp/FrmMain.Designer.cs)
 
 
+
+[Winform 실무예제 바로가기](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WinExecutiveBank)
 
 
 [StudyDesktopApp으로 이동](https://github.com/zizi0308/StudyDesktopApp)
