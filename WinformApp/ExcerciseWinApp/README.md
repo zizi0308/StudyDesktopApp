@@ -5,6 +5,7 @@
 ----------
 
 #### 1. ListBox에 항목을 표시하는 3가지 방법
+ListBox의 SelectedItem, SelectedIndex 속성을 이해하고 SelectedIndexChanged 이벤트를 활용하여 템플릿을 만들어 보았습니다.
 
 
 ![ListBox_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_110303_001.png)
@@ -15,7 +16,7 @@
 
 
 #### 2. ComboBox를 이용한 식당리스트의 추가, 삭제
-
+ComboBox의 SelectedItem, SelectedIndex 속성을 이해하고 SelectedIndexChanged 이벤트를 활용하여 템플릿을 만들어 보았습니다.
 
 ![ComboBox_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_110301_001.png)
 
@@ -25,6 +26,7 @@
 
 
 #### 3. CheckedListBox를 이용한 희망 여행지 리스트
+ListBox의 SelectionMode를 MultiExtended로 바꿔 희망여행지리스트 템플릿을 만들어 보았습니다.
 
 
 ![CheckedListBox_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_120338_001.png)
@@ -35,6 +37,7 @@
 
 
 #### 4. ListView를 이용한 상품 리스트 표시
+ListView를 이용해 게임기의 상품리스트 템플릿을 만들어 보았습니다.
 
 
 ![ListView_Images](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_150325_001.png)
