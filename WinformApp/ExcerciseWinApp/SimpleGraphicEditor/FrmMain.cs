@@ -62,6 +62,11 @@ namespace SimpleGraphicEditor
 
         }
 
+        /// <summary>
+        /// 마우스 옮길때마다 발생
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmMain_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button != MouseButtons.Left) return;
@@ -76,14 +81,19 @@ namespace SimpleGraphicEditor
                     g.DrawLine(this.pen, this.startP, this.currP);
                     break;
                 case DrawMode.RECTANGLE:
-                    g.DrawRectangle(this.eraser, 
+                    g.DrawRectangle(this.eraser,
                         new Rectangle(startP, new Size(prevP.X - startP.X, prevP.Y - startP.Y)));
+                    g.DrawRectangle(this.pen,
+                        new Rectangle(startP, new Size(currP.X - startP.X, currP.Y - startP.Y)));
                     break;
                 case DrawMode.CIRCLE:
                     g.DrawEllipse(this.eraser,
                         new Rectangle(startP, new Size(prevP.X - startP.X, prevP.Y - startP.Y)));
+                    g.DrawEllipse(this.pen,
+                        new Rectangle(startP, new Size(currP.X - startP.X, currP.Y - startP.Y)));
                     break;
                 case DrawMode.CURVED_LINE:
+                    g.DrawLine(pen, prevP, currP);
                     break;
                 default:
                     break;
