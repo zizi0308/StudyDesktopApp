@@ -9,7 +9,7 @@ bool형 변수인 flag를 사용해 인사하기 템플릿을 만들어 보았�
 
 ![flag_Image_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150341_001.png)
 ![flag_Image_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150306_001.png)
-![flag_Image_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150341_001.png)
+![flag_Image_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150323_001.png)
 
 [코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/FlagWinApp/Form1.cs)
 
