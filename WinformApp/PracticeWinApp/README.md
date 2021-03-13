@@ -71,6 +71,12 @@ RGB컬러의 개념을 이해하고 TrackBar의 Value속성활용 및 Dialog속�
 #### 성적계산기 만들기
 TextBox의 ReadOnly 속성을 이용해 성적계산기 템플릿을 만들었습니다.
 
+![ScoreCalc_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180351_001.png)
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/ScoreCalcApp/FrmMain.cs)
+
+
+
 <br/>
 
 [Winform 활용예제 바로가기](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/ExcerciseWinApp)
