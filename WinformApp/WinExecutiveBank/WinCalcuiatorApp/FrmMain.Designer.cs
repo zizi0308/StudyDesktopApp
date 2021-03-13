@@ -64,35 +64,38 @@ namespace WinCalcuiatorApp
             // 
             // TxtResult
             // 
+            this.TxtResult.BackColor = System.Drawing.Color.White;
             this.TxtResult.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtResult.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.TxtResult.Location = new System.Drawing.Point(3, 44);
+            this.TxtResult.Location = new System.Drawing.Point(1, 44);
             this.TxtResult.Name = "TxtResult";
-            this.TxtResult.Size = new System.Drawing.Size(249, 32);
+            this.TxtResult.Size = new System.Drawing.Size(251, 32);
             this.TxtResult.TabIndex = 0;
             this.TxtResult.Text = "0";
             this.TxtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BtnMc
             // 
+            this.BtnMc.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMc.FlatAppearance.BorderSize = 0;
             this.BtnMc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMc.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.BtnMc.ForeColor = System.Drawing.Color.Indigo;
             this.BtnMc.Location = new System.Drawing.Point(1, 92);
             this.BtnMc.Name = "BtnMc";
             this.BtnMc.Size = new System.Drawing.Size(50, 35);
             this.BtnMc.TabIndex = 1;
             this.BtnMc.Text = "MC";
-            this.BtnMc.UseVisualStyleBackColor = true;
+            this.BtnMc.UseVisualStyleBackColor = false;
             this.BtnMc.Click += new System.EventHandler(this.BtnMc_Click);
             // 
             // BtnCe
             // 
-            this.BtnCe.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnCe.BackColor = System.Drawing.Color.Lavender;
             this.BtnCe.FlatAppearance.BorderSize = 0;
             this.BtnCe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCe.Font = new System.Drawing.Font("맑은 고딕", 11F);
-            this.BtnCe.Location = new System.Drawing.Point(2, 182);
+            this.BtnCe.Location = new System.Drawing.Point(1, 182);
             this.BtnCe.Name = "BtnCe";
             this.BtnCe.Size = new System.Drawing.Size(66, 40);
             this.BtnCe.TabIndex = 2;
@@ -101,54 +104,62 @@ namespace WinCalcuiatorApp
             // 
             // BtnMr
             // 
+            this.BtnMr.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMr.FlatAppearance.BorderSize = 0;
             this.BtnMr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMr.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.BtnMr.ForeColor = System.Drawing.Color.Indigo;
             this.BtnMr.Location = new System.Drawing.Point(55, 92);
             this.BtnMr.Name = "BtnMr";
             this.BtnMr.Size = new System.Drawing.Size(50, 35);
             this.BtnMr.TabIndex = 1;
             this.BtnMr.Text = "MR";
-            this.BtnMr.UseVisualStyleBackColor = true;
+            this.BtnMr.UseVisualStyleBackColor = false;
             this.BtnMr.Click += new System.EventHandler(this.BtnMr_Click);
             // 
             // BtnMPlus
             // 
+            this.BtnMPlus.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMPlus.FlatAppearance.BorderSize = 0;
             this.BtnMPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMPlus.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.BtnMPlus.ForeColor = System.Drawing.Color.Indigo;
             this.BtnMPlus.Location = new System.Drawing.Point(108, 92);
             this.BtnMPlus.Name = "BtnMPlus";
             this.BtnMPlus.Size = new System.Drawing.Size(50, 35);
             this.BtnMPlus.TabIndex = 1;
             this.BtnMPlus.Text = "M+";
-            this.BtnMPlus.UseVisualStyleBackColor = true;
+            this.BtnMPlus.UseVisualStyleBackColor = false;
             this.BtnMPlus.Click += new System.EventHandler(this.BtnMPlus_Click);
             // 
             // BtnMminus
             // 
+            this.BtnMminus.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMminus.FlatAppearance.BorderSize = 0;
             this.BtnMminus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMminus.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.BtnMminus.ForeColor = System.Drawing.Color.Indigo;
             this.BtnMminus.Location = new System.Drawing.Point(160, 92);
             this.BtnMminus.Name = "BtnMminus";
             this.BtnMminus.Size = new System.Drawing.Size(50, 35);
             this.BtnMminus.TabIndex = 1;
             this.BtnMminus.Text = "M-";
-            this.BtnMminus.UseVisualStyleBackColor = true;
+            this.BtnMminus.UseVisualStyleBackColor = false;
             this.BtnMminus.Click += new System.EventHandler(this.BtnMminus_Click);
             // 
             // BtnMs
             // 
+            this.BtnMs.BackColor = System.Drawing.Color.GhostWhite;
             this.BtnMs.FlatAppearance.BorderSize = 0;
             this.BtnMs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMs.Font = new System.Drawing.Font("맑은 고딕", 9F);
+            this.BtnMs.ForeColor = System.Drawing.Color.Indigo;
             this.BtnMs.Location = new System.Drawing.Point(212, 92);
             this.BtnMs.Name = "BtnMs";
             this.BtnMs.Size = new System.Drawing.Size(50, 35);
             this.BtnMs.TabIndex = 1;
             this.BtnMs.Text = "MS";
-            this.BtnMs.UseVisualStyleBackColor = true;
+            this.BtnMs.UseVisualStyleBackColor = false;
             this.BtnMs.Click += new System.EventHandler(this.BtnMs_Click);
             // 
             // BtnPercent
@@ -201,7 +212,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnC
             // 
-            this.BtnC.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnC.BackColor = System.Drawing.Color.Lavender;
             this.BtnC.FlatAppearance.BorderSize = 0;
             this.BtnC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnC.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -215,7 +226,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnDel
             // 
-            this.BtnDel.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnDel.BackColor = System.Drawing.Color.Lavender;
             this.BtnDel.FlatAppearance.BorderSize = 0;
             this.BtnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDel.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -228,7 +239,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnDivide
             // 
-            this.BtnDivide.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnDivide.BackColor = System.Drawing.Color.Lavender;
             this.BtnDivide.FlatAppearance.BorderSize = 0;
             this.BtnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDivide.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -242,7 +253,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn7
             // 
-            this.Btn7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn7.BackColor = System.Drawing.Color.Lavender;
             this.Btn7.FlatAppearance.BorderSize = 0;
             this.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn7.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -256,7 +267,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn8
             // 
-            this.Btn8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn8.BackColor = System.Drawing.Color.Lavender;
             this.Btn8.FlatAppearance.BorderSize = 0;
             this.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn8.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -270,7 +281,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn9
             // 
-            this.Btn9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn9.BackColor = System.Drawing.Color.Lavender;
             this.Btn9.FlatAppearance.BorderSize = 0;
             this.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn9.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -284,7 +295,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnMultiple
             // 
-            this.BtnMultiple.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnMultiple.BackColor = System.Drawing.Color.Lavender;
             this.BtnMultiple.FlatAppearance.BorderSize = 0;
             this.BtnMultiple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMultiple.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -298,7 +309,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn4
             // 
-            this.Btn4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn4.BackColor = System.Drawing.Color.Lavender;
             this.Btn4.FlatAppearance.BorderSize = 0;
             this.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn4.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -312,7 +323,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn5
             // 
-            this.Btn5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn5.BackColor = System.Drawing.Color.Lavender;
             this.Btn5.FlatAppearance.BorderSize = 0;
             this.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn5.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -326,7 +337,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn6
             // 
-            this.Btn6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn6.BackColor = System.Drawing.Color.Lavender;
             this.Btn6.FlatAppearance.BorderSize = 0;
             this.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn6.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -340,7 +351,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnMinus
             // 
-            this.BtnMinus.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnMinus.BackColor = System.Drawing.Color.Lavender;
             this.BtnMinus.FlatAppearance.BorderSize = 0;
             this.BtnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMinus.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -354,7 +365,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn1
             // 
-            this.Btn1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn1.BackColor = System.Drawing.Color.Lavender;
             this.Btn1.FlatAppearance.BorderSize = 0;
             this.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn1.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -368,7 +379,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn2
             // 
-            this.Btn2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn2.BackColor = System.Drawing.Color.Lavender;
             this.Btn2.FlatAppearance.BorderSize = 0;
             this.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn2.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -382,7 +393,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn3
             // 
-            this.Btn3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn3.BackColor = System.Drawing.Color.Lavender;
             this.Btn3.FlatAppearance.BorderSize = 0;
             this.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn3.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -396,7 +407,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnPlus
             // 
-            this.BtnPlus.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnPlus.BackColor = System.Drawing.Color.Lavender;
             this.BtnPlus.FlatAppearance.BorderSize = 0;
             this.BtnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPlus.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -410,7 +421,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnSign
             // 
-            this.BtnSign.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSign.BackColor = System.Drawing.Color.Lavender;
             this.BtnSign.FlatAppearance.BorderSize = 0;
             this.BtnSign.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSign.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -423,7 +434,7 @@ namespace WinCalcuiatorApp
             // 
             // Btn0
             // 
-            this.Btn0.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Btn0.BackColor = System.Drawing.Color.Lavender;
             this.Btn0.FlatAppearance.BorderSize = 0;
             this.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn0.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -437,7 +448,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnComma
             // 
-            this.BtnComma.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnComma.BackColor = System.Drawing.Color.Lavender;
             this.BtnComma.FlatAppearance.BorderSize = 0;
             this.BtnComma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnComma.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -450,7 +461,7 @@ namespace WinCalcuiatorApp
             // 
             // BtnEqual
             // 
-            this.BtnEqual.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnEqual.BackColor = System.Drawing.Color.Lavender;
             this.BtnEqual.FlatAppearance.BorderSize = 0;
             this.BtnEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEqual.Font = new System.Drawing.Font("맑은 고딕", 11F);
@@ -478,7 +489,7 @@ namespace WinCalcuiatorApp
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(264, 381);
+            this.ClientSize = new System.Drawing.Size(264, 380);
             this.Controls.Add(this.BtnEqual);
             this.Controls.Add(this.BtnPlus);
             this.Controls.Add(this.BtnMinus);
