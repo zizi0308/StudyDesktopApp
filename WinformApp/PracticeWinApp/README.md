@@ -61,7 +61,7 @@ MaskedTextBox의 Mask 속성으로 사원정보 등록 템플릿을 만들었습
 RGB컬러의 개념을 이해하고 TrackBar의 Value속성활용 및 Dialog속성을 적용하여 컬러조정 템플릿을 만들어 보았습니다.
 
 ![TrackBar_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150315_001.png)
-<br/>버튼은 위쪽부터 colorDialog, openFileDialog, saveFileDialog 순서로 적용함
+<br/>버튼은 위쪽부터 colorDialog, openFileDialog, saveFileDialog 순서로 적용
 
 [코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/ColorChangeApp/FrmMain.cs)
 
@@ -70,6 +70,12 @@ RGB컬러의 개념을 이해하고 TrackBar의 Value속성활용 및 Dialog속�
 
 #### 성적계산기 만들기
 TextBox의 ReadOnly 속성을 이용해 성적계산기 템플릿을 만들었습니다.
+
+![ScoreCalc_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180351_001.png)
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/ScoreCalcApp/FrmMain.cs)
+
+
 
 <br/>
 
