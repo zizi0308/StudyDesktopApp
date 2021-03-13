@@ -7,9 +7,9 @@
 #### 1. flag를 이용한 이벤트처리
 bool형 변수인 flag를 사용해 인사하기 템플릿을 만들어 보았습니다.
 
-![flag_Image_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150341_001.png)
-![flag_Image_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150306_001.png)
-![flag_Image_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150323_001.png)
+![flag_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150341_001.png)
+![flag_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150306_001.png)
+![flag_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150323_001.png)
 
 [코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/FlagWinApp/Form1.cs)
 
@@ -17,5 +17,18 @@ bool형 변수인 flag를 사용해 인사하기 템플릿을 만들어 보았�
 #### 2. 체크박스
 Checked의 속성과 CheckedChanged 이벤트를 사용하여 템플릿을 만들었습니다.
 
-![CheckBox_Image_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150304_001.png)
-![CheckBox_Image_2]()
+![CheckBox_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150304_001.png)
+![CheckBox_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150335_001.png)
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/CheckBoxWinApp/FrmMain.cs)
+
+
+#### 3. 라디오버튼과 그룹박스
+그룹박스를 먼저 위치시키고 그 안에 라디오 버튼을 넣어 템플릿을 만들었습니다.
+
+![RadioButton_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_150321_001.png)
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/PracticeWinApp/RadioWinApp/FrmMain.cs)
+
+
+#### 4. 
