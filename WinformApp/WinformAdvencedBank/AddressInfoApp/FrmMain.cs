@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AddressInfoApp
@@ -14,7 +8,7 @@ namespace AddressInfoApp
     public partial class FrmMain : Form
     {
         string connstring = "Data Source=127.0.0.1;Initial Catalog=PMS;Persist Security Info=True;" +
-            "User ID=SA;Password=msspl_p@ssw0rd!";
+            "User ID=SA;Password=msspl_p@ssw0rd!"; // 이부분 안틀렸는지 확인 또 확인 App.config에 넣어서 공유 용이하게 할 수 있음(보안문제있음)
         public FrmMain()
         {
             InitializeComponent();
@@ -121,26 +115,30 @@ namespace AddressInfoApp
                 return;
             }
 
-            using (SqlConnection conn = new SqlConnection(connstring))
+            if (MessageBox.Show("삭제하시겠습니까?", "삭제", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+                == DialogResult.Yes) // 이거 외에 IsModify로도 짤 수 있음
             {
-                if (conn.State == ConnectionState.Closed)
-                    conn.Open();  // 디버그할때 여기서 오류나면 string connstring가 잘못된 것임
-
-                string query = $"DELETE FROM Address WHERE idx = {result}";
-
-                SqlCommand cmd = new SqlCommand(query, conn);
-                if (cmd.ExecuteNonQuery() == 1)
+                using (SqlConnection conn = new SqlConnection(connstring))
                 {
-                    MessageBox.Show("삭제 성공!");
+                    if (conn.State == ConnectionState.Closed)
+                        conn.Open();  // 디버그할때 여기서 오류나면 string connstring가 잘못된 것임
+
+                    string query = $"DELETE FROM Address WHERE idx = {result}";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    if (cmd.ExecuteNonQuery() == 1)
+                    {
+                        MessageBox.Show("삭제 성공!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("삭제 실패!");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("삭제 실패!");
-                }
+
+                ClearInput();
+                RefreshData();
             }
-
-            ClearInput();
-            RefreshData();
         }
 
         private void TxtFullName_KeyPress(object sender, KeyPressEventArgs e)
