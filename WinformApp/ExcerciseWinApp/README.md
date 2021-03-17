@@ -40,9 +40,9 @@ ListBox의 SelectionMode를 MultiExtended로 바꿔 희망여행지리스트 템
 ListView를 이용해 게임기의 상품리스트 템플릿을 만들어 보았습니다.
 
 
-![ListView_Images](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_150325_001.png)
+![ListView_Images1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_150325_001.png)
 
-![ListView_Images](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_150349_001.png)
+![ListView_Images2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_150349_001.png)
 
 [코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/ExcerciseWinApp/ListViewApp/FrmMain.cs)
 
@@ -64,6 +64,40 @@ ListView를 이용해 게임기의 상품리스트 템플릿을 만들어 보았
 ![DateTimePicker_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210310_170329_001.png)
 
 [코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/ExcerciseWinApp/DateCalcApp/FrmMain.Designer.cs)
+
+
+
+#### 7. TabControl을 사용한 디지털 알람시계
+TabControl의 사용방법을 익히고 DateTimePicker를 이용해 알람이 울리는 날짜와 시간을 선택할 수 있게 만들었습니다.
+
+![TabControl_Images1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180342_001.png)
+
+![TabControl_Images2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180336_001.png)
+
+![TabControl_Images3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180320_001.png)
+
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/ExcerciseWinApp/AlarmClockApp/FrmAlarm.cs)
+
+
+
+#### 8. WMP 컨트롤을 이용한 동영상 플레이어
+도구상자에 WindowMediaPlayer 컨트롤을 추가하고 이 컨트롤의 사용방법을 학습했습니다.
+
+![WMP_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180306_001.png)
+
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/blob/main/WinformApp/ExcerciseWinApp/MoviePlayerApp/FrmPlayer.cs)
+
+
+
+#### 9. GDI++와 ToolStrip, StatusStrip을 사용한 그래픽 프로그램
+다양한 Graphics 객체와 메서드들을 만들어 보고 사용해 보면서 GDI++를 학습했습니다.
+
+![Grphic_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210313_180359_001.png)
+
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/ExcerciseWinApp/SimpleGraphicEditor)
 
 
 
