@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // 제어됩니다. 어셈블리와 관련된 정보를 수정하려면
 // 이러한 특성 값을 변경하세요.
 [assembly: AssemblyTitle("MyNotePadApp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("제가 만든 노트패드입니다.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MyNotePadApp")]

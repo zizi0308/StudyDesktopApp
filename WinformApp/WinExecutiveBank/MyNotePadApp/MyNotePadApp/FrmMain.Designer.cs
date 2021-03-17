@@ -55,7 +55,7 @@ namespace MyNotePadApp
             this.도움말HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(380, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,33 +74,33 @@ namespace MyNotePadApp
             // MnuNewFile
             // 
             this.MnuNewFile.Name = "MnuNewFile";
-            this.MnuNewFile.Size = new System.Drawing.Size(180, 22);
+            this.MnuNewFile.Size = new System.Drawing.Size(155, 22);
             this.MnuNewFile.Text = "새로 만들기(&N)";
             this.MnuNewFile.Click += new System.EventHandler(this.MnuNewFile_Click);
             // 
             // MnuOpenFile
             // 
             this.MnuOpenFile.Name = "MnuOpenFile";
-            this.MnuOpenFile.Size = new System.Drawing.Size(180, 22);
+            this.MnuOpenFile.Size = new System.Drawing.Size(155, 22);
             this.MnuOpenFile.Text = "열기(&O)";
             this.MnuOpenFile.Click += new System.EventHandler(this.MnuOpenFile_Click);
             // 
             // MnuSaveFile
             // 
             this.MnuSaveFile.Name = "MnuSaveFile";
-            this.MnuSaveFile.Size = new System.Drawing.Size(180, 22);
+            this.MnuSaveFile.Size = new System.Drawing.Size(155, 22);
             this.MnuSaveFile.Text = "저장(&S)";
             this.MnuSaveFile.Click += new System.EventHandler(this.MnuSaveFile_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 6);
             // 
             // MnuExit
             // 
             this.MnuExit.Name = "MnuExit";
-            this.MnuExit.Size = new System.Drawing.Size(180, 22);
+            this.MnuExit.Size = new System.Drawing.Size(155, 22);
             this.MnuExit.Text = "종료(&X)";
             this.MnuExit.Click += new System.EventHandler(this.MnuExit_Click);
             // 
@@ -148,7 +148,7 @@ namespace MyNotePadApp
             this.TxtMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtMain.Location = new System.Drawing.Point(0, 24);
             this.TxtMain.Name = "TxtMain";
-            this.TxtMain.Size = new System.Drawing.Size(800, 426);
+            this.TxtMain.Size = new System.Drawing.Size(380, 272);
             this.TxtMain.TabIndex = 1;
             this.TxtMain.Text = "";
             this.TxtMain.TextChanged += new System.EventHandler(this.TxtMain_TextChanged);
@@ -157,7 +157,7 @@ namespace MyNotePadApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(380, 296);
             this.Controls.Add(this.TxtMain);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
