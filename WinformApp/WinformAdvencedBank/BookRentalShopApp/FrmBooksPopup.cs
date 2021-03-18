@@ -89,8 +89,6 @@ namespace BookRentalShopApp
             // 데이터그리드뷰 컬럼 화면에서 안보이게
             var column = DgvData.Columns[2]; // Division 컬럼
             column.Visible = false;
-            column = DgvData.Columns[8];
-            column.Visible = false;
 
             // 헤더텍스트 길이조정
             column = DgvData.Columns[4];
