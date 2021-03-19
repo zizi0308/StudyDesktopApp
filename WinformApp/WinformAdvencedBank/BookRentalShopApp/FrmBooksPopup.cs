@@ -61,20 +61,17 @@ namespace BookRentalShopApp
                     if (conn.State == ConnectionState.Closed) conn.Open();
 
                     var query = @"SELECT b.Idx
-                                       ,b.Author
-                                       ,b.Division
-	                                    ,d.Names as DivName
-                                        ,b.Names
-                                        ,b.ReleaseDate
-                                        ,b.ISBN
-                                        ,format(b.Price, '#,#') as '가격'
-                                        ,b.Descriptions
-                                   FROM dbo.bookstbl as b
-                                  INNER JOIN dbo.divtbl as d
-	                                 on b.Division = d.Division "; // 210318 Discriptions 컬럼추가
+                                      ,b.Author
+                                      ,b.Division
+	                                  ,d.Names as DivName
+                                      ,b.Names
+                                      ,b.ReleaseDate
+                                  FROM dbo.bookstbl as b
+                                 INNER JOIN dbo.divtbl as d
+                                    ON b.Division = d.Division "; // 210318 Descriptions 컬럼추가
                     SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
                     DataSet ds = new DataSet();
-                    adapter.Fill(ds, "bookstbl"); // 가상의 데이터베이스
+                    adapter.Fill(ds, "bookstbl");
 
                     DgvData.DataSource = ds;
                     DgvData.DataMember = "bookstbl";
@@ -97,6 +94,8 @@ namespace BookRentalShopApp
             //  Idx 오른쪽정렬
             column = DgvData.Columns[0];
             column.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+            DgvData.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
 
         #endregion

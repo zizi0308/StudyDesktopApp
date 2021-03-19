@@ -239,7 +239,7 @@ namespace BookRentalShopApp
                     cmd.Parameters.Add(pPrice);
 
                     SqlParameter pDescriptions = new SqlParameter("@Descriptions", SqlDbType.NVarChar);
-                    pDescriptions.Value = TxtDescriptions.Text;
+                    pDescriptions.Value = Helper.Common.ReplaceCmdText(TxtDescriptions.Text); // Common에서 만든 메소드 집어넣기
                     cmd.Parameters.Add(pDescriptions);
 
                     SqlParameter pPassword = new SqlParameter("@passwords", SqlDbType.VarChar, 100);
