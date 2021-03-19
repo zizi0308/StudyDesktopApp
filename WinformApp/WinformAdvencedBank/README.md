@@ -17,8 +17,7 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 <br/>
 ### 2. 로그인 화면
 <br/>
-![ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png)
-<br/>
+![ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png) <br/>
 프로그램을 열면 가장 먼저 실행되는 로그인 화면입니다. 아이디와 비밀번호를 입력해야 들어갈 수 있으며, 비밀번호는 보안을 위해 PasswordChar를 썼습니다.
 <br/>
 ![ShopLogin_Images2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170322_001.png)
