@@ -23,5 +23,3 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 3. 초기 프로그램화면
 
 MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원, 도서, 대여관리의 항목을 추가로 넣었습니다.
-
-![dlalwl](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170352_001.png)
