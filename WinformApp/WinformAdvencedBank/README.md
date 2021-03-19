@@ -13,7 +13,7 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 
 만들어 두었던 BookRentalShop의 DB입니다. 이것을 활용해 책대여 프로그램을 만들어 보겠습니다.
 
-
+<br/>
 
 ### 2. 로그인 화면
 ![ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png)
@@ -35,7 +35,7 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 위는 구분코드의 화면입니다. 신규추가, 수정, 삭제들의 기능을 넣어 도서의 종류별 관리를 용이하게 만들었습니다.
 
-
+<br/>
 
 ![DivCode_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170327_001.png)
 
@@ -70,16 +70,15 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 ![Memeber_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100325_001.png)
 
-
 위의 화면은 회원관리 초기화면입니다. 클릭을 하면 회원들의 인적사항이 오른쪽의 상태그룹에 표시됩니다.
 
-
+<br/>
 
 ![Memeber_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180330_001.png)
 
 위의 화면은 새로운 회원을 추가해 저장한 모습입니다.
 
-
+<br/>
 
 ![Memeber_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180354_001.png)
 
@@ -110,6 +109,8 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 책 추가 결과화면입니다. 62번째 인덱스에 '홍길동자서전'이 추가되었습니다.
 
+
+<br/>
 
 이번에는 책의 상태를 수정해보겠습니다.
 
