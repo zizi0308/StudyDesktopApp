@@ -9,14 +9,14 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 
 1. SQL DB화면
 
-[DB_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100324_001.png)
+![DB_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100324_001.png)
 만들어 두었던 BookRentalShop의 DB입니다. 이것을 활용해 대여프로그램을 만들어 보겠습니다.
 
 
 
 2. 로그인 화면
 
-[ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png)
+![ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png)
 프로그램을 열면 자장 먼저 실행되는 로그인 화면입니다. 아이디와 비밀번호를 입력해야 들어갈 수 있으며 비밀번호는 보안을 위해 PasswordChar를 썼습니다.
 
 
