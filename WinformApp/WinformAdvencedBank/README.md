@@ -37,14 +37,13 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 
 
-아래는 구분코드 추가를 성공한 화면입니다. 프로그래밍 아래에 '자기계발서'라는 항목을 추가했습니다.
 ![DivCode_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170327_001.png)
+위는 구분코드 추가를 성공한 화면입니다. 프로그래밍 아래에 '자기계발서'라는 항목을 추가했습니다.
 
 
 
-항목이 추가된화면입니다.
 ![DivCode_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170330_001.png)
-
+항목이 추가된화면입니다.
 
 
 이번에는 추가했던 자기계발서 항목을 삭제해보았습니다. 
@@ -52,22 +51,74 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 
 
-아래는 결과화면입니다.
 ![DivCode_Images_5](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170300_001.png)
+아래는 결과화면입니다.
 
 
 
 
 ### 4. 회원관리 화면
-회원의 효율적인 관리를위해 GroupBox로 상태라는 그룹을 만들어 그 안에 인덱스, 이름, 레벨, 주소, 아이디, 패스워드 등의 신상정보를 Lable과 TextBox, ComboBox를 사용하여 만들었습니다.
+회원의 효율적인 관리를위해 GroupBox로 상태라는 그룹을 만들어 그 안에 인덱스, 이름, 레벨, 주소, 아이디, 패스워드 등의 신상정보를 Label과 TextBox, ComboBox를 사용하여 만들었습니다.
 앞의 구분코드와 마찬가지로 DB데이터를 넣고 삭제, 신규, 저장의 버튼을 넣고 동작하게 만들었습니다.
 
 
 ![Memeber_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100325_001.png)
-위의 화면은 회원관리 초기화면입니다. 클릭을 하면 회원들의 인적사항이 오늘쪽의 상태그룹에 표시됩니다.
+위의 화면은 회원관리 초기화면입니다. 클릭을 하면 회원들의 인적사항이 오른쪽의 상태그룹에 표시됩니다.
 
 
-![Memeber_Images_2]()
+
+![Memeber_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180330_001.png)
+위의 화면은 새로운 회원을 추가해 저장한 모습입니다.
+
+
+
+![Memeber_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180354_001.png)
+결과화면입니다. 27번째 인덱스에 '홍길동'이 추가되었습니다.
+
+
+
+### 5. 책관리 화면
+책관리를 용이하게 하기위해 GroupBox로 책의 정보를 그룹화하여 그 안에 인덱스, 저자, 장르, 도서명, 출판일 등의 책정보를 Label과 TextBox, ComboBox, DateTimePicker를 사용하여 만들었습니다.
+앞의 회원관리와 마찬가지로 DB데이터를 넣고 삭제, 신규, 저장의 버튼을 넣고 동작하게 만들었습니다.
+
+
+
+![Book_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100315_001.png)
+위의 화면은 책관리 초기화면입니다. 클릭을 하면 책의 정보들이 오른쪽의 상태그룹에 표시됩니다.
+
+
+
+![Book_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180304_001.png)
+위의 화면은 '홍길동자서전'이라는 책을 추가하고 저장한 화면입니다.
+
+
+
+![Book_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180357_001.png)
+책 추가 결과화면입니다. 62번째 인덱스에 '홍길동자서전'이 추가되었습니다.
+
+
+이번에는 책의 상태를 수정해보겠습니다.
+
+![Book_Images_4](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180354_002.png)
+41번째 책인 '대나무가 우는 꿈'의 이름과 장르, 설명을 수정해보겠습니다.
+
+
+![Book_Images_5](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180308_001.png)
+수정 후 저장에 성공했습니다. 이제 결과화면을 보겠습니다.
+
+
+![Book_Images_6](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180339_001.png)
+결과화면입니다. '대나무가 우는 꿈'의 이름을 'C# 잘하는 법'으로 장르는 '프로그래밍'으로 설명도 간략하게 바꿔보았습니다.
+
+
+
+
+
+
+
+
+
+
 
 
 
