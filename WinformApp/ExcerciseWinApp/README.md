@@ -102,7 +102,7 @@ TabControl의 사용방법을 익히고 DateTimePicker를 이용해 알람이 �
 
 
 
-[Winform 실무예제 바로가기](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WinExecutiveBank)
+[Winform Advence Project](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WinformAdvencedBank)
 
 
 [StudyDesktopApp으로 이동](https://github.com/zizi0308/StudyDesktopApp)
