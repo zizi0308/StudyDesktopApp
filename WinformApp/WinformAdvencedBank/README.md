@@ -6,14 +6,15 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 
 
 -----------
-<br/>
+
 ### 1. SQL DB화면
+
 ![DB_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100324_001.png)
 
 만들어 두었던 BookRentalShop의 DB입니다. 이것을 활용해 책대여 프로그램을 만들어 보겠습니다.
 
-<br/>
-<br/>
+
+
 ### 2. 로그인 화면
 ![ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png)
 
