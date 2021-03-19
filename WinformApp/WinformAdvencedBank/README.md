@@ -20,6 +20,8 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 
 프로그램을 열면 가장 먼저 실행되는 로그인 화면입니다. 아이디와 비밀번호를 입력해야 들어갈 수 있으며, 비밀번호는 보안을 위해 PasswordChar를 썼습니다.
 
+<br/>
+
 ![ShopLogin_Images2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170322_001.png)
 
 로그인 성공이후 관리 시스템에 접근할 수 있습니다.
@@ -41,23 +43,23 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 위는 구분코드 추가를 성공한 화면입니다. 프로그래밍 아래에 '자기계발서'라는 항목을 추가했습니다.
 
-
+<br/>
 
 ![DivCode_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170330_001.png)
 
 항목이 추가된화면입니다.
 
-
+<br/>
 
 ![DivCode_Images_4](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170352_001.png)
 
 이번에는 추가했던 자기계발서 항목을 삭제해보았습니다.
 
-
+<br/>
 
 ![DivCode_Images_5](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170300_001.png)
 
-아래는 결과화면입니다.
+위는 결과화면입니다.
 
 
 <br/>
@@ -97,19 +99,19 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 위의 화면은 책관리 초기화면입니다. 클릭을 하면 책의 정보들이 오른쪽의 상태그룹에 표시됩니다.
 
-
+<br/>
 
 ![Book_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180304_001.png)
 
 위의 화면은 '홍길동자서전'이라는 책을 추가하고 저장한 화면입니다.
 
-
+<br/>
 
 ![Book_Images_3](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180357_001.png)
 
 책 추가 결과화면입니다. 62번째 인덱스에 '홍길동자서전'이 추가되었습니다.
 
-
+<br/>
 <br/>
 
 이번에는 책의 상태를 수정해보겠습니다.
@@ -118,11 +120,13 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 41번째 책인 '대나무가 우는 꿈'의 이름과 장르, 설명을 수정해보겠습니다.
 
+<br/>
 
 ![Book_Images_5](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180308_001.png)
 
 수정 후 저장에 성공했습니다. 이제 결과화면을 보겠습니다.
 
+<br/>
 
 ![Book_Images_6](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180339_001.png)
 
@@ -139,9 +143,10 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 (회원리스트 팝업창)
 
+<br/>
 
 ![Rental_PopupImages_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180357_002.png)
-<br/>
+
 (책리스트 팝업창)
 
 <br/>
@@ -150,6 +155,7 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 '홍길동'을 책 대여리스트에 추가한 후 저장에 성공한 모습입니다.
 
+<br/>
 
 ![Rental_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180328_001.png)
 
