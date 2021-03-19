@@ -165,8 +165,15 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 <br/>
 
 ### 6. 그 외
-<br/>
 그 외에도 Sql쿼리문 작성, Sql Injection에 대한 Secure Code작성, 빈값에 대한 처리 메세지나 회원들의 접속 기록 등 다양한 기능들을 활용해 보았습니다. 자세한 내용은 BookRentalShop의 소스코드를 참고해주세요! 긴 글 봐주셔서 감사합니다.😉
+
+<br/>
+
+[코드보기](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WinformAdvencedBank/BookRentalShopApp)
+
+<br/>
+
+[StudyDesktopApp으로 이동](https://github.com/zizi0308/StudyDesktopApp)
 
 
 
