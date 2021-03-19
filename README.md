@@ -13,7 +13,7 @@ C# 데스크톱 앱 개발 학습 리포지토리
 
 [WinForm 활용예제소스](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/ExcerciseWinApp)
 
-[Winform 실무예제소스](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WinExecutiveBank)
+[Winform Advence Project](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WinformAdvencedBank)
 
 
 
