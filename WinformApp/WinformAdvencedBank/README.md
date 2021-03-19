@@ -46,8 +46,9 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 항목이 추가된화면입니다.
 
 
-이번에는 추가했던 자기계발서 항목을 삭제해보았습니다. 
+ 
 ![DivCode_Images_4](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170352_001.png)
+이번에는 추가했던 자기계발서 항목을 삭제해보았습니다.
 
 
 
@@ -108,7 +109,37 @@ MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원,
 
 
 ![Book_Images_6](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180339_001.png)
-결과화면입니다. '대나무가 우는 꿈'의 이름을 'C# 잘하는 법'으로 장르는 '프로그래밍'으로 설명도 간략하게 바꿔보았습니다.
+결과화면입니다. '대나무가 우는 꿈'의 이름을 'C# 잘하는 법'으로 장르는 '프로그래밍'으로 바뀐결과를 확인할 수 있습니다.
+
+
+
+
+### 5. 대여관리
+대여관리를 용이하게 하기위해 GroupBox로 대여정보를 그룹화하여 그 안에 인덱스, 대여회원, 도서명, 대여일, 반납일, 대여상태를 Label과 TextBox, ComboBox, DateTimePicker를 사용하여 만들었습니다. 앞의 책관리와 마찬가지로 DB데이터를 넣고 삭제, 신규, 저장의 버튼을 넣고 동작하게 만들었습니다. 또한, 대여회원과 도서명에 검색버튼을 넣어 클릭하면 책과 회원의 리스트 정보를 담고있는 팝업창을 만들어 프로그램을 좀 더 사용하기 쉽게 만들었습니다. 
+
+
+![Rental_PopupImages_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180300_001.png)
+회원리스트 팝업창
+
+![Rental_PopupImages_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180357_002.png)
+책리스트 팝업창
+
+
+
+![Rental_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180348_001.png)
+'홍길동'을 책 대여리스트에 추가한 후 저장에 성공한 모습입니다.
+
+
+![Rental_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_180328_001.png)
+결과화면입니다. 20번째 인덱스에 홍길동이 대여중으로 추가된 것을 확인할 수 있습니다.
+
+
+
+### 6. 그 외
+그 외에도 Sql쿼리문 작성, Sql Injection에 대한 Secure Code작성, 빈값에 대한 처리 메세지나 회원들의 접속 기록 등 다양한 기능들을 활용해 보았습니다. 자세한 내용은 BookRentalShop의 소스코드를 참고해주세요 긴 글 봐주셔서 감사합니다!
+
+
+
 
 
 
