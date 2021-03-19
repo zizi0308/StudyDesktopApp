@@ -16,7 +16,7 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 <br/>
 <br/>
 ### 2. 로그인 화면
-<br/>
+
 ![ShopLogin_Image](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_100344_001.png)
 
 프로그램을 열면 가장 먼저 실행되는 로그인 화면입니다. 아이디와 비밀번호를 입력해야 들어갈 수 있으며, 비밀번호는 보안을 위해 PasswordChar를 썼습니다.
@@ -31,15 +31,15 @@ WinForm의 MetroFrameWork를 사용해 디자인적인 요소를 넣었습니다
 
 MenuStrip을 활용해 관리부분의 하위 콘텐츠에 구분코드, 회원, 도서, 대여관리의 항목을 추가로 넣었습니다. 구분코드와 이름으로 구성되어있는 형태의 데이터를 넣고 삭제, 저장, 신규 버튼을 넣고 동작하도록 만들었습니다. 
 
-<br/>
+
 ![DivCode_Images_1](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170324_001.png)
-<br/>
+
 위는 구분코드의 화면입니다. 신규추가, 수정, 삭제들의 기능을 넣어 도서의 종류별 관리를 용이하게 만들었습니다.
 
 
-<br/>
+
 ![DivCode_Images_2](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210319_170327_001.png)
-<br/>
+
 위는 구분코드 추가를 성공한 화면입니다. 프로그래밍 아래에 '자기계발서'라는 항목을 추가했습니다.
 
 
