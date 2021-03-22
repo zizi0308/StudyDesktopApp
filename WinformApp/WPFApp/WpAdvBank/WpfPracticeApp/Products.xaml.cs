@@ -21,6 +21,7 @@ namespace WpfPracticeApp
     /// </summary>
     public partial class Products : Page
     {
+        private ProductsFactory factory;
         public Products()
         {
             InitializeComponent();
@@ -28,7 +29,8 @@ namespace WpfPracticeApp
 
         private void Page_Initialized(object sender, EventArgs e)
         {
-            var cars = new List<Car>();
+            
+            /*var cars = new List<Car>();
             for (int i = 0; i < 10; i++)
             {
                 byte red = (byte)(i % 3 == 0 ? 255 : (i * 50) % 255);
@@ -41,7 +43,16 @@ namespace WpfPracticeApp
                 });
             }
 
-            this.DataContext = cars; // 전체페이지로 바인딩 함
+            this.DataContext = cars; // 전체페이지로 바인딩 함*/
+            
+            
+            factory = new ProductsFactory();
+            GrdProducts.ItemsSource = factory.GetAllProducts();
+        }
+
+        private void TxtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            GrdProducts.ItemsSource = factory.FindProducts(TxtSearch.Text);
         }
     }
 }

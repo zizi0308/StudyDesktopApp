@@ -1,8 +1,8 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace WpfPracticeApp
+namespace WpfPracticeApp.BusinessLogic
 {
-    public class Talk : ObservableCollection<Message>
+    public class Talk : ObservableCollection<Message> // 콜렉션을 상속해서 Talk으로 만듦
     {
         public Talk()
         {

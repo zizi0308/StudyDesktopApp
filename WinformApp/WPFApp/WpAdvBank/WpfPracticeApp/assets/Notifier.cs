@@ -4,7 +4,7 @@ public class Notifier : INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler PropertyChanged;
 
-    protected void OnPropertyChanged(string propertyName)
+    protected void OnPropertyChanged(string propertyName) // 분할업무를 할 때(MVVM을 할 때) 값으 바뀌었다는 것을 알려루기 위한 이벤트
     {
         if (PropertyChanged != null)
         {

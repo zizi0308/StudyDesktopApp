@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfPracticeApp
+namespace WpfPracticeApp.BusinessLogic
 {
     public class ProductsFactory
     {
@@ -66,7 +66,7 @@ namespace WpfPracticeApp
             set
             {
                 title = value;
-                OnPropertyChanged("Title");
+                OnPropertyChanged("Title"); // 값이 바뀔때 바로 적용되게 하는 일종의 이벤트 Notifiy 인터페이스를 구현해서 만듦
             }
         }
 
