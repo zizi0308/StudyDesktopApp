@@ -11,6 +11,6 @@
     mc:Ignorable="d"
     Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Ellipse Width="100" Height="100" Fill="Bisque" Stroke="Brown" StrokeThickness="4"/>
+        <Frame x:Name="MainFarme" NavigationUIVisibility="Visible" Source="/WpfPracticeApp;component/MainMenu.xaml" />
     </Grid>
 </mah:MetroWindow>
