@@ -22,4 +22,4 @@ C# 데스크톱 앱 개발 학습 리포지토리
 다양한 WPF예제들을 통해 C#을 학습하고 실무에 필요한 지식들을 공부했습니다. 자세한 내용은 아래의 소스, README를 참고해주세요!
 
 
-[WPF 소스](https://github.com/zizi0308/StudyDesktopApp/tree/main/WinformApp/WPFApp/WpfExecutiveBank)
+[WPF 소스](https://github.com/zizi0308/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank)
