@@ -4,9 +4,10 @@
 ---------
 
 #### 1. 여러 페이지의 생성과 바인딩
-데이터 소스를 XAML 요소에 바인딩하여 Product, Live Surpport, Email페이지를 만들었고 각각 페이지를 클릭해 동적으로 실행되는 앱을 만들어 보았습니다. 
+데이터 소스를 XAML 요소에 바인딩하여 메인메뉴 안에 Product, Live Surpport, Email페이지를 만들었고 각각 페이지를 클릭해 동적으로 실행되는 앱을 만들어 보았습니다. 
 
 ![Main](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210329_170355_001.png)
+
 
 ![Product](https://github.com/zizi0308/StudyDesktopApp/blob/main/images/img_20210329_170308_001.png)
 
